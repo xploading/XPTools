@@ -1,0 +1,6 @@
+platform :ios, '10.2'
+target 'XPTools' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+end
+
