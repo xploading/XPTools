@@ -9,7 +9,12 @@
 #ifndef Header_h
 #define Header_h
 
+
+#define SCREEN_WIDTH  UIScreen.main.bounds
+
+
 #import "AFNetworking.h"
+#import "YYModel.h"
 
 
 #endif /* Header_h */

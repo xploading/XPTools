@@ -22,13 +22,25 @@ class ViewController: UIViewController ,UITextFieldDelegate{
     }
     
     
+    func test(cls:AnyClass){
+        var outCount : UInt32 = 0
+        var array = [String]()
+        let propertys = class_copyPropertyList(cls, &outCount)
+        for i in 0..<outCount{
+            //获取对象中的属性
+            let property  = propertys?[Int(i)]
+            //获取属性名
+            let name = property_getName(property)
+            //转为String
+            let propertyName = String.init(cString: name!)
+            array.append(propertyName)
+        }
+        print(array)
+    }
+    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        let  url = "www.baidu.com"
-        Rabbit.POST(urlString: url, paraments: nil) { (json) in
-            print(json)
-        }
+ 
 
         
     }

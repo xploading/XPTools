@@ -15,6 +15,8 @@
 		DF3D588B1ECC15CC00240746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3D58891ECC15CC00240746 /* LaunchScreen.storyboard */; };
 		DF3D58931ECC15E400240746 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D58921ECC15E400240746 /* Rabbit.swift */; };
 		DF3D58951ECC41F900240746 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D58941ECC41F900240746 /* BasicViewController.swift */; };
+		DF4CFD2A1ECD8CB200069542 /* XXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4CFD291ECD8CB200069542 /* XXModel.swift */; };
+		DF4CFD2D1ECDA06900069542 /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4CFD2C1ECDA06900069542 /* Persion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		DF3D58921ECC15E400240746 /* Rabbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
 		DF3D58941ECC41F900240746 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		DF3D58961ECC436F00240746 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DF4CFD291ECD8CB200069542 /* XXModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXModel.swift; sourceTree = "<group>"; };
+		DF4CFD2B1ECD91F900069542 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DF4CFD2C1ECDA06900069542 /* Persion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
 		FE742AD6AD72D9E80108CAAB /* libPods-XPTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +70,7 @@
 		DF3D58741ECC15CC00240746 = {
 			isa = PBXGroup;
 			children = (
+				DF4CFD2B1ECD91F900069542 /* PrefixHeader.pch */,
 				DF3D58961ECC436F00240746 /* Header.h */,
 				DF3D587F1ECC15CC00240746 /* XPTools */,
 				DF3D587E1ECC15CC00240746 /* Products */,
@@ -92,6 +98,8 @@
 				DF3D588C1ECC15CC00240746 /* Info.plist */,
 				DF3D58921ECC15E400240746 /* Rabbit.swift */,
 				DF3D58941ECC41F900240746 /* BasicViewController.swift */,
+				DF4CFD291ECD8CB200069542 /* XXModel.swift */,
+				DF4CFD2C1ECDA06900069542 /* Persion.swift */,
 			);
 			path = XPTools;
 			sourceTree = "<group>";
@@ -224,6 +232,8 @@
 				DF3D58951ECC41F900240746 /* BasicViewController.swift in Sources */,
 				DF3D58931ECC15E400240746 /* Rabbit.swift in Sources */,
 				DF3D58811ECC15CC00240746 /* AppDelegate.swift in Sources */,
+				DF4CFD2D1ECDA06900069542 /* Persion.swift in Sources */,
+				DF4CFD2A1ECD8CB200069542 /* XXModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

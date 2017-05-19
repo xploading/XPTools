@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55FDE3AEEFC88D097F1154563F8137D0F38D5259",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55FDE3AEEFC88D097F1154563F8137D0F38D5259" : 9223372036854775807,
+    "CB7FFD935E9B6EDE9516D0243AF34B1E6BAA1DA4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19053FD2-8909-4167-86E1-414AC2C56B02",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55FDE3AEEFC88D097F1154563F8137D0F38D5259" : "XPTools\/",
+    "CB7FFD935E9B6EDE9516D0243AF34B1E6BAA1DA4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XPTools",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XPTools.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xploading\/XPTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55FDE3AEEFC88D097F1154563F8137D0F38D5259"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xploading\/XPTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB7FFD935E9B6EDE9516D0243AF34B1E6BAA1DA4"
+    }
+  ]
+}
